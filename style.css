@@ -1,0 +1,57 @@
+body{
+    background-color: #e0e0f8;
+    font-family: 'press start 2P', monostyle;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vb;
+    margin: 0%;
+}
+
+table{
+    background-color: #d1c4e9;
+    border: 2px solid black;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px #6d6d6d;
+    padding: 10px;
+}
+
+input{
+    height: 20px;
+    width: 300px;
+    font-size: 20px;
+    padding: 12px;
+    text-align: right;
+    background-color: #333;
+    color: #0f0;
+    border: none;
+    border-radius: 8px;
+    font-family: "Press Start 2P", monospace;
+}
+
+td{
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.operatorButton{
+    background-color: #ce93d8;
+    transform: scale(1.00);
+}
+    
+.digitButton{
+    background-color: #f3e5f5;
+    border: 1px solid black;
+    transition: background-color 0.25, transform 0.15;
+}
+
+.btnACPressed{
+    background-color: #b39ddb;
+}
+
+.equalsBtnPressed{
+    background-color: plum;
+}
